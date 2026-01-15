@@ -1,0 +1,12 @@
+C:\Users\padiy\Desktop\Transformation\Redis AI\smart-self-healing-redis\src\main\java\com\example\smartcall\config\SmartCallConfiguration.java
+C:\Users\padiy\Desktop\Transformation\Redis AI\smart-self-healing-redis\src\main\java\com\example\smartcall\controller\SmartCallController.java
+C:\Users\padiy\Desktop\Transformation\Redis AI\smart-self-healing-redis\src\main\java\com\example\smartcall\model\HealingPlan.java
+C:\Users\padiy\Desktop\Transformation\Redis AI\smart-self-healing-redis\src\main\java\com\example\smartcall\model\Options.java
+C:\Users\padiy\Desktop\Transformation\Redis AI\smart-self-healing-redis\src\main\java\com\example\smartcall\model\SmartCallRequest.java
+C:\Users\padiy\Desktop\Transformation\Redis AI\smart-self-healing-redis\src\main\java\com\example\smartcall\model\SmartCallResponse.java
+C:\Users\padiy\Desktop\Transformation\Redis AI\smart-self-healing-redis\src\main\java\com\example\smartcall\service\OpenAIService.java
+C:\Users\padiy\Desktop\Transformation\Redis AI\smart-self-healing-redis\src\main\java\com\example\smartcall\service\RuleInferenceService.java
+C:\Users\padiy\Desktop\Transformation\Redis AI\smart-self-healing-redis\src\main\java\com\example\smartcall\service\RuleService.java
+C:\Users\padiy\Desktop\Transformation\Redis AI\smart-self-healing-redis\src\main\java\com\example\smartcall\service\SmartCallService.java
+C:\Users\padiy\Desktop\Transformation\Redis AI\smart-self-healing-redis\src\main\java\com\example\smartcall\SmartSelfHealingApplication.java
+C:\Users\padiy\Desktop\Transformation\Redis AI\smart-self-healing-redis\src\main\java\com\example\smartcall\worker\AiWorker.java

@@ -1,0 +1,39 @@
+spring:
+  # Connection settings for Redis.  You can override these values with
+  # environment variables (e.g. SPRING_REDIS_HOST) when deploying.
+  redis:
+    host: localhost
+    port: 6379
+    # password: "" # uncomment and set if your Redis instance requires auth
+
+  # Disable auto-registration of Redis repositories since we are using the
+  # RedisTemplate directly.  This avoids unnecessary initialization overhead.
+  data:
+    redis:
+      repositories:
+        enabled: false
+
+external-api:
+  # Base URL of the external service that this endpoint wraps.  In a real
+  # application you should externalize this to your deployment config.
+  base-url: "http://localhost:8081"
+  #base-url: "https://jsonplaceholder.typicode.com"
+
+selfheal:
+  # Name of the Redis stream used to capture failure events.  The AI worker
+  # consumes this stream and writes back healing rules.
+  failure-stream: "selfheal:failures"
+
+# OpenAI configuration.  Set your API key here or via an external
+# configuration source (e.g. environment variable OPENAI_API_KEY).  The
+# model can be customised (e.g. gpt-4).  See
+# https://platform.openai.com/docs/api-reference for available models.
+openai:
+  # Leave blank and set via env var OPENAI_API_KEY if you want LLM-backed inference.
+  # The framework will still learn deterministically from common error messages.
+  api-key: "${OPENAI_API_KEY:}"
+  model: "gpt-4o-mini"
+
+logging:
+  level:
+    root: INFO
